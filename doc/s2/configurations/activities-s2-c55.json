@@ -1,0 +1,3845 @@
+{
+    "activity_configuration": [
+        {
+            "activity_type": "TOILETING",
+            "attendance": "ATTENDED",
+            "count": 36.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 14544.6406412,
+                    "duration_mean": 5935.779113423865,
+                    "finish_increment": 5,
+                    "frequency": 0.9557719184979973,
+                    "sensor_name": "Door_137"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1044.06306682,
+                    "duration_mean": 1500.8005377850934,
+                    "finish_increment": 5,
+                    "frequency": 0.11732566305218649,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 587.808604069,
+                    "duration_mean": 208.19976001985196,
+                    "finish_increment": 5,
+                    "frequency": 0.4739797920507863,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2.87139303461,
+                    "duration_mean": 6.684327786931986,
+                    "finish_increment": 5,
+                    "frequency": 0.39273947699718836,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 7.31816613337,
+                    "duration_mean": 8.056977658076038,
+                    "finish_increment": 5,
+                    "frequency": 0.08879228234461092,
+                    "sensor_name": "Drawer_114"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 10235.5113819,
+                    "duration_mean": 11036.531542000239,
+                    "finish_increment": 5,
+                    "frequency": 0.11802797167675615,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 21808.2049926,
+                    "duration_mean": 20584.60393659219,
+                    "finish_increment": 5,
+                    "frequency": 0.2308976048151438,
+                    "sensor_name": "Lightswitch_109"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 375.5,
+                    "duration_mean": 505.71065446475336,
+                    "finish_increment": 5,
+                    "frequency": 0.0604176469150711,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1528.831279057895,
+                    "finish_increment": 5,
+                    "frequency": 0.029489990839253497,
+                    "sensor_name": "Cabinet_116"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 6.16489817050358,
+                    "finish_increment": 5,
+                    "frequency": 0.02846322464510639,
+                    "sensor_name": "Cabinet_142"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 2395.688047989873,
+                    "finish_increment": 5,
+                    "frequency": 0.02956851757988875,
+                    "sensor_name": "Cabinet_138"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 736.0,
+                    "duration_mean": 7707.187248250821,
+                    "finish_increment": 5,
+                    "frequency": 0.05996970600753692,
+                    "sensor_name": "Lightswitch_98"
+                },
+                {
+                    "activity_type": "USE_TV",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.909212113132,
+                    "duration_mean": 2.22778611941881,
+                    "finish_increment": 5,
+                    "frequency": 0.43834667753064727,
+                    "sensor_name": "TV_141"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 2505.60668256688,
+                    "finish_increment": 5,
+                    "frequency": 0.028445450148536642,
+                    "sensor_name": "Lightswitch_110"
+                },
+                {
+                    "activity_type": "USE_TOILET_FLUSH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1984.12803256,
+                    "duration_mean": 646.2518021681196,
+                    "finish_increment": 5,
+                    "frequency": 0.32351816757117025,
+                    "sensor_name": "ToiletFlush_112"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 799.021067724,
+                    "duration_mean": 1532.5050855468796,
+                    "finish_increment": 5,
+                    "frequency": 0.0890377101203145,
+                    "sensor_name": "Lightswitch_106"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 21.9672483484,
+                    "duration_mean": 38.409848167621846,
+                    "finish_increment": 5,
+                    "frequency": 0.14860511037958613,
+                    "sensor_name": "Sinkfaucet-cold_94"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 10407.4121258,
+                    "duration_mean": 4177.655824038409,
+                    "finish_increment": 5,
+                    "frequency": 0.31673032318199873,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_HOT",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 36.0504249087,
+                    "duration_mean": 38.819512621255384,
+                    "finish_increment": 5,
+                    "frequency": 0.36621692358876384,
+                    "sensor_name": "Sinkfaucet-hot_100"
+                },
+                {
+                    "activity_type": "USE_STEREO",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 7.571566095035447,
+                    "finish_increment": 5,
+                    "frequency": 0.029674989148282482,
+                    "sensor_name": "Stereo_122"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 16735.6529451,
+                    "duration_mean": 9680.816249316955,
+                    "finish_increment": 5,
+                    "frequency": 0.12053168232035848,
+                    "sensor_name": "Cabinet_57"
+                },
+                {
+                    "activity_type": "USE_FREEZER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 13.105477769642054,
+                    "finish_increment": 5,
+                    "frequency": 0.028749600750049464,
+                    "sensor_name": "Freezer_70"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 14.66450293268098,
+                    "finish_increment": 5,
+                    "frequency": 0.029326503774665162,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 854.3219799120081,
+                    "finish_increment": 5,
+                    "frequency": 0.029633598571563023,
+                    "sensor_name": "Lightswitch_120"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 168.362703708,
+                    "duration_mean": 194.75228097339811,
+                    "finish_increment": 5,
+                    "frequency": 0.08351156715149599,
+                    "sensor_name": "Cabinet_67"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2.0,
+                    "duration_mean": 6.569505685745939,
+                    "finish_increment": 5,
+                    "frequency": 0.05698902893937691,
+                    "sensor_name": "Cabinet_64"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1412.5597256135377,
+                    "finish_increment": 5,
+                    "frequency": 0.02801833996514031,
+                    "sensor_name": "Cabinet_79"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 44.5,
+                    "duration_mean": 48.75619684551221,
+                    "finish_increment": 5,
+                    "frequency": 0.05819432757687355,
+                    "sensor_name": "Cabinet_73"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 20924.847172895898,
+                    "finish_increment": 5,
+                    "frequency": 0.02825355344982156,
+                    "sensor_name": "Lightswitch_107"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2.0,
+                    "duration_mean": 5.154475653005479,
+                    "finish_increment": 5,
+                    "frequency": 0.05991596807708279,
+                    "sensor_name": "Toaster_108"
+                },
+                {
+                    "activity_type": "USE_MEDICINE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 8.598672463010104,
+                    "finish_increment": 5,
+                    "frequency": 0.03031778702045256,
+                    "sensor_name": "Medicinecabinet_127"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 15.681832717241244,
+                    "finish_increment": 5,
+                    "frequency": 0.03033047046434684,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 19074.547618195007,
+                    "finish_increment": 5,
+                    "frequency": 0.030226314954967453,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_HAMPER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 8380.221612177038,
+                    "finish_increment": 5,
+                    "frequency": 0.028831527050992616,
+                    "sensor_name": "Hamper_78"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 38.59249417686459,
+                    "finish_increment": 5,
+                    "frequency": 0.030304588314943467,
+                    "sensor_name": "Drawer_128"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 21.298783381986954,
+                    "finish_increment": 5,
+                    "frequency": 0.02976808987028854,
+                    "sensor_name": "Cabinet_111"
+                }
+            ]
+        },
+        {
+            "activity_type": "WATCHING_TV",
+            "attendance": "ATTENDED",
+            "count": 15.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1570.0908397,
+                    "duration_mean": 867.0800154974505,
+                    "finish_increment": 5,
+                    "frequency": 1.005184753478373,
+                    "sensor_name": "Door_137"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 14884.2581497,
+                    "duration_mean": 12256.043782027595,
+                    "finish_increment": 5,
+                    "frequency": 0.4073048785828857,
+                    "sensor_name": "Lightswitch_98"
+                },
+                {
+                    "activity_type": "USE_TV",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 4016.75394857,
+                    "duration_mean": 1230.4641962570608,
+                    "finish_increment": 5,
+                    "frequency": 3.730136950074948,
+                    "sensor_name": "TV_141"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 2528.4234871331723,
+                    "finish_increment": 5,
+                    "frequency": 0.0694881355044777,
+                    "sensor_name": "Lightswitch_110"
+                },
+                {
+                    "activity_type": "USE_TOILET_FLUSH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 10462.2962674,
+                    "duration_mean": 8406.832867571056,
+                    "finish_increment": 5,
+                    "frequency": 0.2816209448471572,
+                    "sensor_name": "ToiletFlush_112"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 17365.0385113,
+                    "duration_mean": 15555.946352204006,
+                    "finish_increment": 5,
+                    "frequency": 0.2847239645480336,
+                    "sensor_name": "Lightswitch_109"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 4600.98629523,
+                    "duration_mean": 4708.493903020521,
+                    "finish_increment": 5,
+                    "frequency": 0.20361340476899414,
+                    "sensor_name": "Lightswitch_106"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1.78535710714,
+                    "duration_mean": 3.9467460200107705,
+                    "finish_increment": 5,
+                    "frequency": 0.2813349389464558,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_TV",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 11414.0215191,
+                    "duration_mean": 2896.5155783255036,
+                    "finish_increment": 5,
+                    "frequency": 1.317202478300082,
+                    "sensor_name": "TV_101"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 8470.78647962,
+                    "duration_mean": 6508.916878332764,
+                    "finish_increment": 5,
+                    "frequency": 0.4305493327946813,
+                    "sensor_name": "Lightswitch_107"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1053.28913409,
+                    "duration_mean": 1365.9794454945968,
+                    "finish_increment": 5,
+                    "frequency": 0.2063189697339668,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 33.1151022949,
+                    "duration_mean": 28.69808542651686,
+                    "finish_increment": 5,
+                    "frequency": 0.7048983420390558,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 42518.40582903717,
+                    "finish_increment": 5,
+                    "frequency": 0.0672298293899236,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 17643.8168269,
+                    "duration_mean": 18066.86703739495,
+                    "finish_increment": 5,
+                    "frequency": 0.21593904836867076,
+                    "sensor_name": "Lightswitch_119"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 12.0,
+                    "duration_mean": 21.210423843160125,
+                    "finish_increment": 5,
+                    "frequency": 0.13791773302660118,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 16090.441044969593,
+                    "finish_increment": 5,
+                    "frequency": 0.072153612765381,
+                    "sensor_name": "Drawer_126"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_HOT",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 24.3082290593,
+                    "duration_mean": 23.9875265620952,
+                    "finish_increment": 5,
+                    "frequency": 0.6752546359176916,
+                    "sensor_name": "Sinkfaucet-hot_100"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 3605.46803003,
+                    "duration_mean": 1835.102111073038,
+                    "finish_increment": 5,
+                    "frequency": 1.0607625115836072,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1.01980390272,
+                    "duration_mean": 7.2077033267218535,
+                    "finish_increment": 5,
+                    "frequency": 0.35998513560069406,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_FREEZER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 14.146846169811727,
+                    "finish_increment": 5,
+                    "frequency": 0.06821723011850052,
+                    "sensor_name": "Freezer_70"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1416.34561068,
+                    "duration_mean": 1485.7811097665028,
+                    "finish_increment": 5,
+                    "frequency": 0.20933769456466114,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_TELEPHONE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 698.0059054899244,
+                    "finish_increment": 5,
+                    "frequency": 0.06755974469215802,
+                    "sensor_name": "Telephone_69"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 24634.10332942286,
+                    "finish_increment": 5,
+                    "frequency": 0.07042558565298843,
+                    "sensor_name": "Drawer_135"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 22.374476212608688,
+                    "finish_increment": 5,
+                    "frequency": 0.0689502192282148,
+                    "sensor_name": "Cabinet_104"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 32.5,
+                    "duration_mean": 36.17622111235693,
+                    "finish_increment": 5,
+                    "frequency": 0.14248061800512898,
+                    "sensor_name": "Drawer_114"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 852.5637191464223,
+                    "finish_increment": 5,
+                    "frequency": 0.06990573505229676,
+                    "sensor_name": "Lightswitch_120"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 31.030450994,
+                    "duration_mean": 49.80433385012084,
+                    "finish_increment": 5,
+                    "frequency": 0.21124961692255342,
+                    "sensor_name": "Cabinet_67"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2.0,
+                    "duration_mean": 6.275929803506863,
+                    "finish_increment": 5,
+                    "frequency": 0.13569728638533532,
+                    "sensor_name": "Cabinet_64"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1334.7163889579874,
+                    "finish_increment": 5,
+                    "frequency": 0.07066028421348776,
+                    "sensor_name": "Cabinet_79"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 44.5,
+                    "duration_mean": 45.97632343986217,
+                    "finish_increment": 5,
+                    "frequency": 0.14288325095029902,
+                    "sensor_name": "Cabinet_73"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 84.75185666973599,
+                    "finish_increment": 5,
+                    "frequency": 0.07295734542668919,
+                    "sensor_name": "Cabinet_57"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1.077205003905265,
+                    "finish_increment": 5,
+                    "frequency": 0.07282216945776311,
+                    "sensor_name": "Toaster_108"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 17.55452933313909,
+                    "finish_increment": 5,
+                    "frequency": 0.06910087146218961,
+                    "sensor_name": "Drawer_82"
+                }
+            ]
+        },
+        {
+            "activity_type": "PREPARING_BREAKFAST",
+            "attendance": "ATTENDED",
+            "count": 17.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 14699.3677182,
+                    "duration_mean": 7563.969530027379,
+                    "finish_increment": 5,
+                    "frequency": 0.8295147002141746,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 292.783869732,
+                    "duration_mean": 122.14470397114304,
+                    "finish_increment": 5,
+                    "frequency": 2.514594354892184,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 18366.904848,
+                    "duration_mean": 17648.554423748403,
+                    "finish_increment": 5,
+                    "frequency": 0.8981198368059204,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 4087.5,
+                    "duration_mean": 5202.27713361509,
+                    "finish_increment": 5,
+                    "frequency": 0.128256376274549,
+                    "sensor_name": "Lightswitch_119"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 8075.5,
+                    "duration_mean": 9218.097234220524,
+                    "finish_increment": 5,
+                    "frequency": 0.12715212072456003,
+                    "sensor_name": "Door_137"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 983.5,
+                    "duration_mean": 1211.051809813028,
+                    "finish_increment": 5,
+                    "frequency": 0.12873117849155535,
+                    "sensor_name": "Lightswitch_109"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 9.611985352336724,
+                    "finish_increment": 5,
+                    "frequency": 0.11964461076797993,
+                    "sensor_name": "Cabinet_142"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 9793.87505553,
+                    "duration_mean": 6966.948606421644,
+                    "finish_increment": 5,
+                    "frequency": 1.4177080256767098,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 20273.3845561,
+                    "duration_mean": 13880.177432403641,
+                    "finish_increment": 5,
+                    "frequency": 0.9750593988803923,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 5.93465407444,
+                    "duration_mean": 8.621785522566293,
+                    "finish_increment": 5,
+                    "frequency": 2.544403638220295,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 4.5,
+                    "duration_mean": 6.728263257213111,
+                    "finish_increment": 5,
+                    "frequency": 0.12420079572636453,
+                    "sensor_name": "Drawer_114"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 7.0,
+                    "duration_mean": 9.83070973466255,
+                    "finish_increment": 5,
+                    "frequency": 0.1234067738889984,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 14700.8703144,
+                    "duration_mean": 7703.499261301586,
+                    "finish_increment": 5,
+                    "frequency": 0.5514850087317986,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_HOT",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3413.4922686626364,
+                    "finish_increment": 5,
+                    "frequency": 0.06276338092895911,
+                    "sensor_name": "Sinkfaucet-hot_100"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 9.789032618261066,
+                    "finish_increment": 5,
+                    "frequency": 0.062757484914944,
+                    "sensor_name": "Cabinet_138"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1.47901994577,
+                    "duration_mean": 6.527535464844645,
+                    "finish_increment": 5,
+                    "frequency": 0.2490656697367542,
+                    "sensor_name": "Cabinet_64"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 14.8660687473,
+                    "duration_mean": 22.75188756277306,
+                    "finish_increment": 5,
+                    "frequency": 0.24391286809280188,
+                    "sensor_name": "Cabinet_67"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 16448.0357851,
+                    "duration_mean": 11031.685419804999,
+                    "finish_increment": 5,
+                    "frequency": 0.25484772613081064,
+                    "sensor_name": "Cabinet_57"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 14436.258877208678,
+                    "finish_increment": 5,
+                    "frequency": 0.061404830217354024,
+                    "sensor_name": "Lightswitch_107"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 698.153356631,
+                    "duration_mean": 296.7428288259796,
+                    "finish_increment": 5,
+                    "frequency": 0.5017378918229418,
+                    "sensor_name": "Toaster_108"
+                },
+                {
+                    "activity_type": "USE_STEREO",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 10.807149606857516,
+                    "finish_increment": 5,
+                    "frequency": 0.06417564055448333,
+                    "sensor_name": "Stereo_122"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 25.203983314439014,
+                    "finish_increment": 5,
+                    "frequency": 0.06403166093543794,
+                    "sensor_name": "Door_134"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 38926.27476154509,
+                    "finish_increment": 5,
+                    "frequency": 0.06105897812347259,
+                    "sensor_name": "Lightswitch_120"
+                },
+                {
+                    "activity_type": "USE_FREEZER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 19872.0,
+                    "duration_mean": 21086.110441940607,
+                    "finish_increment": 5,
+                    "frequency": 0.1259011778371756,
+                    "sensor_name": "Freezer_70"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 18775.32236753432,
+                    "finish_increment": 5,
+                    "frequency": 0.06275971907874339,
+                    "sensor_name": "Sinkfaucet-cold_91"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 51437.888606789784,
+                    "finish_increment": 5,
+                    "frequency": 0.06024483040979482,
+                    "sensor_name": "Door_133"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3.0217227053512006,
+                    "finish_increment": 5,
+                    "frequency": 0.06271639017061706,
+                    "sensor_name": "Drawer_77"
+                },
+                {
+                    "activity_type": "USE_CONTAINER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 16445.272320348977,
+                    "finish_increment": 5,
+                    "frequency": 0.0646232752422379,
+                    "sensor_name": "Containers_124"
+                }
+            ]
+        },
+        {
+            "activity_type": "WASHING_DISHES",
+            "attendance": "ATTENDED",
+            "count": 18.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 6304.71231733,
+                    "duration_mean": 2789.8911330791825,
+                    "finish_increment": 5,
+                    "frequency": 2.092411643804171,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 4.7842333648,
+                    "duration_mean": 13.674484700717583,
+                    "finish_increment": 5,
+                    "frequency": 0.1719134200437438,
+                    "sensor_name": "Cabinet_64"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 22717.0,
+                    "duration_mean": 23434.931744507358,
+                    "finish_increment": 5,
+                    "frequency": 0.11972553597378041,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.816496580928,
+                    "duration_mean": 2.120147606258634,
+                    "finish_increment": 5,
+                    "frequency": 0.16926677140831428,
+                    "sensor_name": "Drawer_114"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 15949.163103,
+                    "duration_mean": 9633.911009222142,
+                    "finish_increment": 5,
+                    "frequency": 0.23104015335471878,
+                    "sensor_name": "Sinkfaucet-cold_91"
+                },
+                {
+                    "activity_type": "USE_TV",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3.261125665646775,
+                    "finish_increment": 5,
+                    "frequency": 0.11302050668998476,
+                    "sensor_name": "TV_141"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_HOT",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 6.97614984549,
+                    "duration_mean": 21.17662882975586,
+                    "finish_increment": 5,
+                    "frequency": 0.17861544302572707,
+                    "sensor_name": "Sinkfaucet-hot_100"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 8449.5,
+                    "duration_mean": 9199.316917415432,
+                    "finish_increment": 5,
+                    "frequency": 0.11134060962898612,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 7.4087035903,
+                    "duration_mean": 16.652151750534056,
+                    "finish_increment": 5,
+                    "frequency": 0.18059465959811546,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 4507.38466963,
+                    "duration_mean": 2967.7848015007694,
+                    "finish_increment": 5,
+                    "frequency": 0.3017497314001165,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 18.187738461267113,
+                    "finish_increment": 5,
+                    "frequency": 0.05795752987731028,
+                    "sensor_name": "Sinkfaucet-cold_94"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 12678.2264533,
+                    "duration_mean": 12249.669916139916,
+                    "finish_increment": 5,
+                    "frequency": 0.28844393931042056,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_STEREO",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1785.8957397381598,
+                    "finish_increment": 5,
+                    "frequency": 0.060037373208556274,
+                    "sensor_name": "Stereo_122"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 9.75640815054,
+                    "duration_mean": 13.274291645900567,
+                    "finish_increment": 5,
+                    "frequency": 0.4627878259944889,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 75.26082454825446,
+                    "finish_increment": 5,
+                    "frequency": 0.0588654447967712,
+                    "sensor_name": "Lightswitch_119"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 9.891308052421818,
+                    "finish_increment": 5,
+                    "frequency": 0.057133284873656834,
+                    "sensor_name": "Cabinet_140"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 29.5,
+                    "duration_mean": 33.27602588067586,
+                    "finish_increment": 5,
+                    "frequency": 0.12082595521750417,
+                    "sensor_name": "Toaster_108"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 7.2247318899085,
+                    "finish_increment": 5,
+                    "frequency": 0.05914944948459455,
+                    "sensor_name": "Cabinet_73"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 47010.92237424146,
+                    "finish_increment": 5,
+                    "frequency": 0.05937094905933673,
+                    "sensor_name": "Lightswitch_109"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 88.1364437701225,
+                    "finish_increment": 5,
+                    "frequency": 0.05615018472849896,
+                    "sensor_name": "Lightswitch_106"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 293.24948345648437,
+                    "finish_increment": 5,
+                    "frequency": 0.05761373617916338,
+                    "sensor_name": "Cabinet_116"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 170.3081497564154,
+                    "finish_increment": 5,
+                    "frequency": 0.05915314215223577,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 8.425748079066832,
+                    "finish_increment": 5,
+                    "frequency": 0.056230296382738736,
+                    "sensor_name": "Refrigerator_66"
+                }
+            ]
+        },
+        {
+            "activity_type": "LISTENING_MUSIC",
+            "attendance": "ATTENDED",
+            "count": 16.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_STEREO",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 8129.82298079,
+                    "duration_mean": 3856.5618806902075,
+                    "finish_increment": 5,
+                    "frequency": 2.1618871603486323,
+                    "sensor_name": "Stereo_122"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 9041.5,
+                    "duration_mean": 9563.989489518794,
+                    "finish_increment": 5,
+                    "frequency": 0.1254438880405163,
+                    "sensor_name": "Lightswitch_119"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 13137.6534265,
+                    "duration_mean": 20358.73299951428,
+                    "finish_increment": 5,
+                    "frequency": 0.20172334325122468,
+                    "sensor_name": "Lightswitch_107"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 76.0052629757,
+                    "duration_mean": 75.7639095608673,
+                    "finish_increment": 5,
+                    "frequency": 0.335990903418931,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 58.1893461039,
+                    "duration_mean": 65.11719360900355,
+                    "finish_increment": 5,
+                    "frequency": 0.19870858140789732,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 14578.6303617,
+                    "duration_mean": 13015.23661592547,
+                    "finish_increment": 5,
+                    "frequency": 0.40921932442007186,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 6294.09965285,
+                    "duration_mean": 3447.2323436903034,
+                    "finish_increment": 5,
+                    "frequency": 0.6700490316692049,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1767.61842288,
+                    "duration_mean": 1342.6099181903453,
+                    "finish_increment": 5,
+                    "frequency": 0.20042361187451085,
+                    "sensor_name": "Sinkfaucet-cold_91"
+                },
+                {
+                    "activity_type": "USE_FREEZER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2876.93498169,
+                    "duration_mean": 4209.110023954584,
+                    "finish_increment": 5,
+                    "frequency": 0.190691822484968,
+                    "sensor_name": "Freezer_70"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 8.63423418723,
+                    "duration_mean": 13.568391569049954,
+                    "finish_increment": 5,
+                    "frequency": 1.3170084308957466,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 559.724675096,
+                    "duration_mean": 161.10697727659843,
+                    "finish_increment": 5,
+                    "frequency": 1.2746889558631003,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_HOT",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 11.02565950007895,
+                    "finish_increment": 5,
+                    "frequency": 0.06365855939158155,
+                    "sensor_name": "Sinkfaucet-hot_100"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 19590.9660303,
+                    "duration_mean": 16036.150136152222,
+                    "finish_increment": 5,
+                    "frequency": 0.3405045041462201,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 11839.1464087,
+                    "duration_mean": 11867.386365549675,
+                    "finish_increment": 5,
+                    "frequency": 0.2504430263625525,
+                    "sensor_name": "Lightswitch_98"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 33705.31958041208,
+                    "finish_increment": 5,
+                    "frequency": 0.0685589230622846,
+                    "sensor_name": "Door_133"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 17254.8109867,
+                    "duration_mean": 10480.217710609078,
+                    "finish_increment": 5,
+                    "frequency": 0.2546446846760535,
+                    "sensor_name": "Door_137"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 5.55777733351,
+                    "duration_mean": 9.352733144324434,
+                    "finish_increment": 5,
+                    "frequency": 0.19081499398670446,
+                    "sensor_name": "Cabinet_57"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 436.45664624868994,
+                    "finish_increment": 5,
+                    "frequency": 0.06592399920353806,
+                    "sensor_name": "Cabinet_67"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 481.087851292,
+                    "duration_mean": 209.4471439824901,
+                    "finish_increment": 5,
+                    "frequency": 0.7073910090754528,
+                    "sensor_name": "Toaster_108"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 21306.5,
+                    "duration_mean": 27071.440662613764,
+                    "finish_increment": 5,
+                    "frequency": 0.1250262339166075,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2578.0,
+                    "duration_mean": 5758.314379682621,
+                    "finish_increment": 5,
+                    "frequency": 0.130029398126513,
+                    "sensor_name": "Refrigerator_66"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 49521.769053412914,
+                    "finish_increment": 5,
+                    "frequency": 0.0646887013269516,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 39299.70421750404,
+                    "finish_increment": 5,
+                    "frequency": 0.06438781382062066,
+                    "sensor_name": "Lightswitch_103"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 7.166358258703074,
+                    "finish_increment": 5,
+                    "frequency": 0.06414193921386242,
+                    "sensor_name": "Cabinet_73"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 4.104214718049376,
+                    "finish_increment": 5,
+                    "frequency": 0.06270084658666795,
+                    "sensor_name": "Cabinet_104"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 7575.5217109168925,
+                    "finish_increment": 5,
+                    "frequency": 0.06771493335197314,
+                    "sensor_name": "Lightswitch_120"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 13.0,
+                    "duration_mean": 29.589540024337342,
+                    "finish_increment": 5,
+                    "frequency": 0.13541238644993572,
+                    "sensor_name": "Drawer_71"
+                }
+            ]
+        },
+        {
+            "activity_type": "HOME_EDUCATION",
+            "attendance": "ATTENDED",
+            "count": 2.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_STEREO",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 4.391130047237497,
+                    "finish_increment": 5,
+                    "frequency": 0.534222879757097,
+                    "sensor_name": "Stereo_122"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1232.50253549,
+                    "duration_mean": 898.4861712356325,
+                    "finish_increment": 5,
+                    "frequency": 2.197421390690128,
+                    "sensor_name": "Lightswitch_107"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 2098.8953672299467,
+                    "finish_increment": 5,
+                    "frequency": 0.5202640980940746,
+                    "sensor_name": "Lightswitch_99"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1.5,
+                    "duration_mean": 6.627684977389959,
+                    "finish_increment": 5,
+                    "frequency": 1.0174839111925347,
+                    "sensor_name": "Door_85"
+                }
+            ]
+        },
+        {
+            "activity_type": "PREPARING_SNACK",
+            "attendance": "ATTENDED",
+            "count": 16.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 5365.03911138,
+                    "duration_mean": 4002.41325505824,
+                    "finish_increment": 5,
+                    "frequency": 0.1994003177142523,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 4479.43972191,
+                    "duration_mean": 8248.129993415458,
+                    "finish_increment": 5,
+                    "frequency": 0.1950529699044348,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1.5,
+                    "duration_mean": 14.859100276272608,
+                    "finish_increment": 5,
+                    "frequency": 0.12836978515997302,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 6865.5465915,
+                    "duration_mean": 3003.5311406066817,
+                    "finish_increment": 5,
+                    "frequency": 0.45555308584498183,
+                    "sensor_name": "Sinkfaucet-cold_91"
+                },
+                {
+                    "activity_type": "USE_FREEZER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 11.5,
+                    "duration_mean": 24.142343028490387,
+                    "finish_increment": 5,
+                    "frequency": 0.1251094190958248,
+                    "sensor_name": "Freezer_70"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 8.14638793353,
+                    "duration_mean": 10.501517770342671,
+                    "finish_increment": 5,
+                    "frequency": 1.4975306659837992,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 18.0411855209,
+                    "duration_mean": 16.520371901486225,
+                    "finish_increment": 5,
+                    "frequency": 0.5484090667352244,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 8.64002314812,
+                    "duration_mean": 8.86563764414658,
+                    "finish_increment": 5,
+                    "frequency": 0.6464941745361376,
+                    "sensor_name": "Toaster_108"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 4.0,
+                    "duration_mean": 6.16789111111052,
+                    "finish_increment": 5,
+                    "frequency": 0.13350982074521411,
+                    "sensor_name": "Drawer_114"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1955.565376543162,
+                    "finish_increment": 5,
+                    "frequency": 0.06537492872732069,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 44.4397219713,
+                    "duration_mean": 42.703867350647904,
+                    "finish_increment": 5,
+                    "frequency": 0.19955694502765828,
+                    "sensor_name": "Lightswitch_106"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 12874.2266199,
+                    "duration_mean": 5312.412486901437,
+                    "finish_increment": 5,
+                    "frequency": 0.4715816352612989,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1.026159895737161,
+                    "finish_increment": 5,
+                    "frequency": 0.06856548374760335,
+                    "sensor_name": "Cabinet_79"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 69.73224228557079,
+                    "finish_increment": 5,
+                    "frequency": 0.06716317589261891,
+                    "sensor_name": "Lightswitch_119"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3.222934930606269,
+                    "finish_increment": 5,
+                    "frequency": 0.06493358829301352,
+                    "sensor_name": "Lightswitch_145"
+                },
+                {
+                    "activity_type": "USE_STEREO",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 527.0,
+                    "duration_mean": 12572.882374773159,
+                    "finish_increment": 5,
+                    "frequency": 0.13558854845785082,
+                    "sensor_name": "Stereo_122"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3902.1283662717624,
+                    "finish_increment": 5,
+                    "frequency": 0.06490049023609948,
+                    "sensor_name": "Lightswitch_98"
+                },
+                {
+                    "activity_type": "USE_BURNER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 442.5,
+                    "duration_mean": 465.40144583339855,
+                    "finish_increment": 5,
+                    "frequency": 0.13096824380285352,
+                    "sensor_name": "Burner_117"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 5696.5,
+                    "duration_mean": 5873.215841110634,
+                    "finish_increment": 5,
+                    "frequency": 0.12655129104488846,
+                    "sensor_name": "Lightswitch_120"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 173.838107157,
+                    "duration_mean": 197.26043338229354,
+                    "finish_increment": 5,
+                    "frequency": 0.25140163648255404,
+                    "sensor_name": "Cabinet_111"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 90.1714416481,
+                    "duration_mean": 83.32785373851824,
+                    "finish_increment": 5,
+                    "frequency": 0.1942296632279691,
+                    "sensor_name": "Cabinet_104"
+                },
+                {
+                    "activity_type": "USE_TV",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 829.953304492551,
+                    "finish_increment": 5,
+                    "frequency": 0.06526919058745999,
+                    "sensor_name": "TV_141"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 193.0,
+                    "duration_mean": 1743.901966285908,
+                    "finish_increment": 5,
+                    "frequency": 0.13421525824140929,
+                    "sensor_name": "Refrigerator_66"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 8750.570336296425,
+                    "finish_increment": 5,
+                    "frequency": 0.06342902810593837,
+                    "sensor_name": "Door_137"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 8851.0,
+                    "duration_mean": 9552.03064578762,
+                    "finish_increment": 5,
+                    "frequency": 0.134826008071519,
+                    "sensor_name": "Cabinet_67"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 7.329335499703085,
+                    "finish_increment": 5,
+                    "frequency": 0.06653671956891609,
+                    "sensor_name": "Cabinet_57"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 11753.268773553773,
+                    "finish_increment": 5,
+                    "frequency": 0.06706206018222845,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 8.28009661779,
+                    "duration_mean": 12.351956225673831,
+                    "finish_increment": 5,
+                    "frequency": 0.3292589643999769,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 40355.81957366283,
+                    "finish_increment": 5,
+                    "frequency": 0.0627419267038721,
+                    "sensor_name": "Lightswitch_103"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 23.301405011732186,
+                    "finish_increment": 5,
+                    "frequency": 0.06548954653297842,
+                    "sensor_name": "Cabinet_64"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 15.323449220206466,
+                    "finish_increment": 5,
+                    "frequency": 0.06542412026429126,
+                    "sensor_name": "Drawer_77"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1.067461312984737,
+                    "finish_increment": 5,
+                    "frequency": 0.06504373004939473,
+                    "sensor_name": "Refrigerator_97"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 66.69329414656579,
+                    "finish_increment": 5,
+                    "frequency": 0.06712253429845148,
+                    "sensor_name": "Sinkfaucet-cold_94"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 44.53826618602227,
+                    "finish_increment": 5,
+                    "frequency": 0.062949373993787,
+                    "sensor_name": "Drawer_71"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 5.274044512623257,
+                    "finish_increment": 5,
+                    "frequency": 0.06521885086533308,
+                    "sensor_name": "Drawer_128"
+                }
+            ]
+        },
+        {
+            "activity_type": "PREPARING_BEVERAGE",
+            "attendance": "ATTENDED",
+            "count": 1.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 31.5,
+                    "duration_mean": 39.57375790497138,
+                    "finish_increment": 5,
+                    "frequency": 2.0858275051520883,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.5,
+                    "duration_mean": 14.225392286294332,
+                    "finish_increment": 5,
+                    "frequency": 2.0436880306331515,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 25.5,
+                    "duration_mean": 35.270789451757075,
+                    "finish_increment": 5,
+                    "frequency": 2.1583125678569464,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 7.544387743342336,
+                    "finish_increment": 5,
+                    "frequency": 1.0747111403302714,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 836.8521108087713,
+                    "finish_increment": 5,
+                    "frequency": 1.0619917582900866,
+                    "sensor_name": "Toaster_108"
+                }
+            ]
+        },
+        {
+            "activity_type": "PREPARING_LUNCH",
+            "attendance": "ATTENDED",
+            "count": 18.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 37.5582880334,
+                    "duration_mean": 17.375436350265648,
+                    "finish_increment": 5,
+                    "frequency": 3.7849723297647113,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2382.6478621,
+                    "duration_mean": 1128.125232727027,
+                    "finish_increment": 5,
+                    "frequency": 2.008678457343416,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_FREEZER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2095.08457109,
+                    "duration_mean": 1548.5096092431463,
+                    "finish_increment": 5,
+                    "frequency": 0.6026891547784399,
+                    "sensor_name": "Freezer_70"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 11706.6931965,
+                    "duration_mean": 9969.248186365267,
+                    "finish_increment": 5,
+                    "frequency": 0.760687263947115,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2540.4452844,
+                    "duration_mean": 415.4004639280468,
+                    "finish_increment": 5,
+                    "frequency": 4.105796109013254,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 488.446517031,
+                    "duration_mean": 267.6022533548692,
+                    "finish_increment": 5,
+                    "frequency": 1.393986840963185,
+                    "sensor_name": "Toaster_108"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 130.15668551712267,
+                    "finish_increment": 5,
+                    "frequency": 0.05671872270872789,
+                    "sensor_name": "Drawer_114"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 7266.86917319,
+                    "duration_mean": 3623.1678532589676,
+                    "finish_increment": 5,
+                    "frequency": 0.5482641250686411,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 36.1140169771,
+                    "duration_mean": 36.41936252359614,
+                    "finish_increment": 5,
+                    "frequency": 0.17064678356137505,
+                    "sensor_name": "Cabinet_140"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 14737.226959,
+                    "duration_mean": 12920.74688777006,
+                    "finish_increment": 5,
+                    "frequency": 0.5791719714556645,
+                    "sensor_name": "Sinkfaucet-cold_91"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1371.80813365,
+                    "duration_mean": 1058.0887676283899,
+                    "finish_increment": 5,
+                    "frequency": 0.17486659398791654,
+                    "sensor_name": "Door_137"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 8.17856276426,
+                    "duration_mean": 12.796812428953348,
+                    "finish_increment": 5,
+                    "frequency": 0.33576762126957177,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3.0425795357927776,
+                    "finish_increment": 5,
+                    "frequency": 0.05595523818389968,
+                    "sensor_name": "Door_133"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 2.1801222440921992,
+                    "finish_increment": 5,
+                    "frequency": 0.06096312959003665,
+                    "sensor_name": "Cabinet_61"
+                },
+                {
+                    "activity_type": "USE_SHOWER_FAUCET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 20385.77026923521,
+                    "finish_increment": 5,
+                    "frequency": 0.057488866660479566,
+                    "sensor_name": "Showerfaucet_60"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1111.0,
+                    "duration_mean": 2799.4319237483096,
+                    "finish_increment": 5,
+                    "frequency": 0.12184175957172068,
+                    "sensor_name": "Lightswitch_106"
+                },
+                {
+                    "activity_type": "USE_STEREO",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1549.0,
+                    "duration_mean": 15397.462687940822,
+                    "finish_increment": 5,
+                    "frequency": 0.11807496859752352,
+                    "sensor_name": "Stereo_122"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 14159.823803612882,
+                    "finish_increment": 5,
+                    "frequency": 0.06021659795260165,
+                    "sensor_name": "Lightswitch_103"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 10528.8280766,
+                    "duration_mean": 7936.794941468849,
+                    "finish_increment": 5,
+                    "frequency": 0.1771564223444897,
+                    "sensor_name": "Cabinet_67"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 3807.55836024,
+                    "duration_mean": 4241.987859442745,
+                    "finish_increment": 5,
+                    "frequency": 0.17528881312079841,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 13542.961174,
+                    "duration_mean": 11782.57496876062,
+                    "finish_increment": 5,
+                    "frequency": 0.2782482608084106,
+                    "sensor_name": "Lightswitch_119"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 8762.80428224,
+                    "duration_mean": 9817.657655456529,
+                    "finish_increment": 5,
+                    "frequency": 0.34589909972570754,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 7130.76451441,
+                    "duration_mean": 4884.47146856929,
+                    "finish_increment": 5,
+                    "frequency": 0.2859759667690676,
+                    "sensor_name": "Cabinet_138"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 10.57244633307389,
+                    "finish_increment": 5,
+                    "frequency": 0.05945987640549555,
+                    "sensor_name": "Cabinet_57"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 8.04155872121,
+                    "duration_mean": 20.002914041306102,
+                    "finish_increment": 5,
+                    "frequency": 0.17999672846049508,
+                    "sensor_name": "Refrigerator_87"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 22.2959497443,
+                    "duration_mean": 22.111288421667773,
+                    "finish_increment": 5,
+                    "frequency": 0.47569554072910125,
+                    "sensor_name": "Cabinet_64"
+                },
+                {
+                    "activity_type": "USE_BURNER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1782.54179474,
+                    "duration_mean": 1584.888046202717,
+                    "finish_increment": 5,
+                    "frequency": 0.365166457992156,
+                    "sensor_name": "Burner_117"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 718.34068055,
+                    "duration_mean": 523.9210930451073,
+                    "finish_increment": 5,
+                    "frequency": 0.3614587382459448,
+                    "sensor_name": "Lightswitch_120"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2.49443825785,
+                    "duration_mean": 16.97273323967282,
+                    "finish_increment": 5,
+                    "frequency": 0.1821544098662698,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 59.5,
+                    "duration_mean": 69.48696187906606,
+                    "finish_increment": 5,
+                    "frequency": 0.11508186255376471,
+                    "sensor_name": "Cabinet_142"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1516.14276666,
+                    "duration_mean": 4300.697646141118,
+                    "finish_increment": 5,
+                    "frequency": 0.1748537258454791,
+                    "sensor_name": "Lightswitch_98"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 21672.05343826666,
+                    "finish_increment": 5,
+                    "frequency": 0.06023983518916046,
+                    "sensor_name": "Cabinet_76"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 4.203636320262274,
+                    "finish_increment": 5,
+                    "frequency": 0.060834501650665264,
+                    "sensor_name": "Refrigerator_66"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 217.08603201038403,
+                    "finish_increment": 5,
+                    "frequency": 0.060581676338579055,
+                    "sensor_name": "Drawer_77"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 2902.607789820457,
+                    "finish_increment": 5,
+                    "frequency": 0.05721751563298021,
+                    "sensor_name": "Refrigerator_97"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 43294.284342385974,
+                    "finish_increment": 5,
+                    "frequency": 0.0591534551499429,
+                    "sensor_name": "Lightswitch_109"
+                },
+                {
+                    "activity_type": "USE_TELEPHONE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 36267.05870480375,
+                    "finish_increment": 5,
+                    "frequency": 0.06013947501677516,
+                    "sensor_name": "Telephone_69"
+                }
+            ]
+        },
+        {
+            "activity_type": "LAWNWORK",
+            "attendance": "ATTENDED",
+            "count": 1.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1443.1303293688943,
+                    "finish_increment": 5,
+                    "frequency": 1.0634439736237782,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 14985.547306574183,
+                    "finish_increment": 5,
+                    "frequency": 1.0711038047286898,
+                    "sensor_name": "Door_137"
+                }
+            ]
+        },
+        {
+            "activity_type": "PREPARING_DINNER",
+            "attendance": "ATTENDED",
+            "count": 13.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 8.34509458104,
+                    "duration_mean": 11.631484443869748,
+                    "finish_increment": 5,
+                    "frequency": 4.458430218845706,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 3.61109401705,
+                    "duration_mean": 7.447205561721881,
+                    "finish_increment": 5,
+                    "frequency": 0.39325443915551994,
+                    "sensor_name": "Refrigerator_66"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 783.845035705,
+                    "duration_mean": 2521.6017832070124,
+                    "finish_increment": 5,
+                    "frequency": 0.4034326110274724,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 185.823460306,
+                    "duration_mean": 103.01393932090797,
+                    "finish_increment": 5,
+                    "frequency": 2.0029211559520212,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1929.44085826,
+                    "duration_mean": 990.2478620836092,
+                    "finish_increment": 5,
+                    "frequency": 1.103255623479116,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2.59807621135,
+                    "duration_mean": 6.514829087655339,
+                    "finish_increment": 5,
+                    "frequency": 0.3355190077127558,
+                    "sensor_name": "Drawer_114"
+                },
+                {
+                    "activity_type": "USE_FREEZER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 8.80656320908,
+                    "duration_mean": 14.949446632664856,
+                    "finish_increment": 5,
+                    "frequency": 0.23608298279616924,
+                    "sensor_name": "Freezer_70"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 23.394535645299197,
+                    "finish_increment": 5,
+                    "frequency": 0.08432584917700654,
+                    "sensor_name": "Drawer_77"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 11.6010057035,
+                    "duration_mean": 7.819755183059119,
+                    "finish_increment": 5,
+                    "frequency": 0.4977307294343809,
+                    "sensor_name": "Cabinet_79"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2.0591260282,
+                    "duration_mean": 6.627783505607417,
+                    "finish_increment": 5,
+                    "frequency": 0.41026533832011913,
+                    "sensor_name": "Cabinet_73"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 6.08604962188,
+                    "duration_mean": 14.865044027991116,
+                    "finish_increment": 5,
+                    "frequency": 0.3906485868817112,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_SHOWER_FAUCET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 3259.5,
+                    "duration_mean": 3481.8076216579148,
+                    "finish_increment": 5,
+                    "frequency": 0.1644585333057231,
+                    "sensor_name": "Showerfaucet_60"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 11.41182516584513,
+                    "finish_increment": 5,
+                    "frequency": 0.07975648153964827,
+                    "sensor_name": "Sinkfaucet-cold_94"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 2746.39446756,
+                    "duration_mean": 2190.1905536607874,
+                    "finish_increment": 5,
+                    "frequency": 0.5798049149565321,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 4.83186700723,
+                    "duration_mean": 8.78204385603278,
+                    "finish_increment": 5,
+                    "frequency": 0.5432211074099693,
+                    "sensor_name": "Cabinet_64"
+                },
+                {
+                    "activity_type": "USE_BURNER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 199.526157433,
+                    "duration_mean": 1386.8015132839466,
+                    "finish_increment": 5,
+                    "frequency": 0.33243637403438886,
+                    "sensor_name": "Burner_117"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 4.0,
+                    "duration_mean": 15.288029143211133,
+                    "finish_increment": 5,
+                    "frequency": 0.15876541227140994,
+                    "sensor_name": "Cabinet_57"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 4580.61279042,
+                    "duration_mean": 1519.6484522632984,
+                    "finish_increment": 5,
+                    "frequency": 1.105398070364309,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_TV",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 7.377220646749927,
+                    "finish_increment": 5,
+                    "frequency": 0.08198993793823438,
+                    "sensor_name": "TV_141"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 18386.85214460483,
+                    "finish_increment": 5,
+                    "frequency": 0.08059406703595362,
+                    "sensor_name": "Lightswitch_109"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 6975.31988084,
+                    "duration_mean": 5146.024415664178,
+                    "finish_increment": 5,
+                    "frequency": 0.41359449756283195,
+                    "sensor_name": "Sinkfaucet-cold_91"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 77.5,
+                    "duration_mean": 878.4311778847291,
+                    "finish_increment": 5,
+                    "frequency": 0.1654472007160699,
+                    "sensor_name": "Lightswitch_98"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 963.3384959883821,
+                    "finish_increment": 5,
+                    "frequency": 0.08064616352600455,
+                    "sensor_name": "Lightswitch_95"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 10820.47865516162,
+                    "finish_increment": 5,
+                    "frequency": 0.07732095425847185,
+                    "sensor_name": "Lightswitch_99"
+                },
+                {
+                    "activity_type": "USE_CONTAINER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1728.6156680511926,
+                    "finish_increment": 5,
+                    "frequency": 0.08151333553861367,
+                    "sensor_name": "Containers_124"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 206.685655042,
+                    "duration_mean": 120.49709039462803,
+                    "finish_increment": 5,
+                    "frequency": 0.4153942884363775,
+                    "sensor_name": "Door_137"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 7.08801805867,
+                    "duration_mean": 9.015739018456769,
+                    "finish_increment": 5,
+                    "frequency": 0.3928849104085212,
+                    "sensor_name": "Toaster_108"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 8.674579399696748,
+                    "finish_increment": 5,
+                    "frequency": 0.07870964838690889,
+                    "sensor_name": "Cabinet_104"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1133.72871535,
+                    "duration_mean": 890.88925125131,
+                    "finish_increment": 5,
+                    "frequency": 0.41386080607213127,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1.0321448169508813,
+                    "finish_increment": 5,
+                    "frequency": 0.07884561936807044,
+                    "sensor_name": "Lightswitch_103"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1024.43830463,
+                    "duration_mean": 556.0363387326347,
+                    "finish_increment": 5,
+                    "frequency": 0.40337633280531254,
+                    "sensor_name": "Cabinet_138"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1.052410575524426,
+                    "finish_increment": 5,
+                    "frequency": 0.08280880918473124,
+                    "sensor_name": "Sinkfaucet-cold_118"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1203.8009335,
+                    "duration_mean": 966.707171490571,
+                    "finish_increment": 5,
+                    "frequency": 0.3332624993030689,
+                    "sensor_name": "Lightswitch_120"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 3393.34363718,
+                    "duration_mean": 1780.8215987583533,
+                    "finish_increment": 5,
+                    "frequency": 0.41241091764465415,
+                    "sensor_name": "Lightswitch_119"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 4.118941565572352,
+                    "finish_increment": 5,
+                    "frequency": 0.08165542883738668,
+                    "sensor_name": "Lightswitch_107"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 7.0651169315768625,
+                    "finish_increment": 5,
+                    "frequency": 0.08416231952148001,
+                    "sensor_name": "Door_134"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 6.341394704408297,
+                    "finish_increment": 5,
+                    "frequency": 0.08161230697608256,
+                    "sensor_name": "Refrigerator_87"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 2.05480466766,
+                    "duration_mean": 13.516238610330019,
+                    "finish_increment": 5,
+                    "frequency": 0.2449789259849772,
+                    "sensor_name": "Cabinet_142"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1.5,
+                    "duration_mean": 7.956526267407661,
+                    "finish_increment": 5,
+                    "frequency": 0.16775997776931048,
+                    "sensor_name": "Cabinet_140"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 3.55902608401,
+                    "duration_mean": 16.001603360431872,
+                    "finish_increment": 5,
+                    "frequency": 0.2495043517871001,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 6.545617030287899,
+                    "finish_increment": 5,
+                    "frequency": 0.08379947261798115,
+                    "sensor_name": "Drawer_89"
+                }
+            ]
+        },
+        {
+            "activity_type": "DRESSING",
+            "attendance": "ATTENDED",
+            "count": 5.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 49.8464308318,
+                    "duration_mean": 57.61205912564651,
+                    "finish_increment": 5,
+                    "frequency": 0.6596766532812814,
+                    "sensor_name": "Drawer_128"
+                },
+                {
+                    "activity_type": "USE_HAMPER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 4130.35226585,
+                    "duration_mean": 2123.2034541938224,
+                    "finish_increment": 5,
+                    "frequency": 1.0218457288813978,
+                    "sensor_name": "Hamper_78"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 189.5,
+                    "duration_mean": 255.8342408314175,
+                    "finish_increment": 5,
+                    "frequency": 0.40863170495370155,
+                    "sensor_name": "Door_137"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 7.522894558871646,
+                    "finish_increment": 5,
+                    "frequency": 0.2019959649557714,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 10.482909296972123,
+                    "finish_increment": 5,
+                    "frequency": 0.21417215392133565,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_SHOWER_FAUCET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 96.04123939020809,
+                    "finish_increment": 5,
+                    "frequency": 0.21760414221211494,
+                    "sensor_name": "Showerfaucet_60"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 21241.66493840431,
+                    "finish_increment": 5,
+                    "frequency": 0.21727214191093447,
+                    "sensor_name": "Drawer_126"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 55.43188184516048,
+                    "finish_increment": 5,
+                    "frequency": 0.21166842885032608,
+                    "sensor_name": "Sinkfaucet-cold_94"
+                },
+                {
+                    "activity_type": "USE_MEDICINE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 10.924249971557781,
+                    "finish_increment": 5,
+                    "frequency": 0.21168223347739376,
+                    "sensor_name": "Medicinecabinet_127"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_HOT",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1.0594251395940888,
+                    "finish_increment": 5,
+                    "frequency": 0.20656957220901567,
+                    "sensor_name": "Sinkfaucet-hot_100"
+                }
+            ]
+        },
+        {
+            "activity_type": "BATHING",
+            "attendance": "ATTENDED",
+            "count": 3.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_SHOWER_FAUCET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 229.14558777376595,
+                    "finish_increment": 5,
+                    "frequency": 0.3570512687657193,
+                    "sensor_name": "Showerfaucet_130"
+                },
+                {
+                    "activity_type": "USE_SHOWER_FAUCET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 23.3174925413,
+                    "duration_mean": 5.142397809994198,
+                    "finish_increment": 5,
+                    "frequency": 61.957849533678946,
+                    "sensor_name": "Showerfaucet_60"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 3321.29782615,
+                    "duration_mean": 2104.2486690201126,
+                    "finish_increment": 5,
+                    "frequency": 1.4666599350868055,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 24.31537199062896,
+                    "finish_increment": 5,
+                    "frequency": 0.3442054632062472,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 104.478167576,
+                    "duration_mean": 186.2843751431819,
+                    "finish_increment": 5,
+                    "frequency": 1.3614357774341321,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 8893.96922692,
+                    "duration_mean": 4072.332347696786,
+                    "finish_increment": 5,
+                    "frequency": 2.794115297053783,
+                    "sensor_name": "Door_137"
+                },
+                {
+                    "activity_type": "USE_HAMPER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 14799.5,
+                    "duration_mean": 15441.623678507633,
+                    "finish_increment": 5,
+                    "frequency": 0.6868676525473347,
+                    "sensor_name": "Hamper_78"
+                }
+            ]
+        },
+        {
+            "activity_type": "OTHER",
+            "attendance": "ATTENDED",
+            "count": 2.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 25.268557537,
+                    "duration_mean": 27.877012454000965,
+                    "finish_increment": 5,
+                    "frequency": 2.042219971344468,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 58.567698510762604,
+                    "finish_increment": 5,
+                    "frequency": 0.5247510083059791,
+                    "sensor_name": "Refrigerator_66"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 4.08248290464,
+                    "duration_mean": 9.566226031518042,
+                    "finish_increment": 5,
+                    "frequency": 1.559978893246894,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 11.844541012486898,
+                    "finish_increment": 5,
+                    "frequency": 0.5461641833104506,
+                    "sensor_name": "Cabinet_140"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 9.543696558852044,
+                    "finish_increment": 5,
+                    "frequency": 0.5067625560685582,
+                    "sensor_name": "Cabinet_61"
+                },
+                {
+                    "activity_type": "USE_TV",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 1180.90006351,
+                    "duration_mean": 624.3663097279599,
+                    "finish_increment": 5,
+                    "frequency": 2.6575084651626364,
+                    "sensor_name": "TV_141"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 17966.082731076487,
+                    "finish_increment": 5,
+                    "frequency": 0.5207029541737938,
+                    "sensor_name": "Lightswitch_107"
+                },
+                {
+                    "activity_type": "USE_SHOWER_FAUCET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 32.51762822490946,
+                    "finish_increment": 5,
+                    "frequency": 0.5472569926454827,
+                    "sensor_name": "Showerfaucet_60"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 69.856092939143,
+                    "finish_increment": 5,
+                    "frequency": 0.5387597883170768,
+                    "sensor_name": "Lightswitch_119"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 8.315313692823539,
+                    "finish_increment": 5,
+                    "frequency": 0.5162640576254975,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3.2188825787483615,
+                    "finish_increment": 5,
+                    "frequency": 0.5484146716774883,
+                    "sensor_name": "Lightswitch_145"
+                }
+            ]
+        },
+        {
+            "activity_type": "PUTTING_AWAY_DISHES",
+            "attendance": "ATTENDED",
+            "count": 3.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1065.60923419,
+                    "duration_mean": 566.757980888034,
+                    "finish_increment": 5,
+                    "frequency": 1.6894346364075914,
+                    "sensor_name": "Sinkfaucet-cold_91"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 53.5,
+                    "duration_mean": 58.917439542458624,
+                    "finish_increment": 5,
+                    "frequency": 0.7170061995564757,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 50.5,
+                    "duration_mean": 119.73609674897222,
+                    "finish_increment": 5,
+                    "frequency": 0.7255182997776576,
+                    "sensor_name": "Drawer_132"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 2268.35804542,
+                    "duration_mean": 2268.1147802522296,
+                    "finish_increment": 5,
+                    "frequency": 1.0144440757911268,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 44.3867942073,
+                    "duration_mean": 40.822553802736984,
+                    "finish_increment": 5,
+                    "frequency": 1.3759400246629525,
+                    "sensor_name": "Cabinet_140"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1265.99060906,
+                    "duration_mean": 619.8716804961169,
+                    "finish_increment": 5,
+                    "frequency": 2.0503788956512543,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 13.190530227903725,
+                    "finish_increment": 5,
+                    "frequency": 0.3654589775126253,
+                    "sensor_name": "Cabinet_79"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 4.060658461389268,
+                    "finish_increment": 5,
+                    "frequency": 1.0148165789185457,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3.1904798947487936,
+                    "finish_increment": 5,
+                    "frequency": 0.36519743409984484,
+                    "sensor_name": "Drawer_128"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 134.4564266558732,
+                    "finish_increment": 5,
+                    "frequency": 0.3507771676650475,
+                    "sensor_name": "Lightswitch_106"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 747.2342261327485,
+                    "finish_increment": 5,
+                    "frequency": 0.3472514640475954,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 240.380297654,
+                    "duration_mean": 288.1982488599839,
+                    "finish_increment": 5,
+                    "frequency": 1.4242389363839398,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 3432.20361976,
+                    "duration_mean": 2097.2944407454615,
+                    "finish_increment": 5,
+                    "frequency": 1.411572408406973,
+                    "sensor_name": "Cabinet_57"
+                }
+            ]
+        },
+        {
+            "activity_type": "PUTTING_AWAY_LAUNDRY",
+            "attendance": "ATTENDED",
+            "count": 1.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3.142871502733445,
+                    "finish_increment": 5,
+                    "frequency": 1.0963672180663582,
+                    "sensor_name": "Drawer_72"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 6.038205587780421,
+                    "finish_increment": 5,
+                    "frequency": 1.0095837045604354,
+                    "sensor_name": "Drawer_128"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 5.089980502129044,
+                    "finish_increment": 5,
+                    "frequency": 1.046128299370412,
+                    "sensor_name": "Door_51"
+                }
+            ]
+        },
+        {
+            "activity_type": "TAKING_MEDICATION",
+            "attendance": "ATTENDED",
+            "count": 13.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 5.38371386684,
+                    "duration_mean": 8.112450699701398,
+                    "finish_increment": 5,
+                    "frequency": 1.3251760743351133,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 4.5,
+                    "duration_mean": 8.602359143294366,
+                    "finish_increment": 5,
+                    "frequency": 0.1543041213383732,
+                    "sensor_name": "Refrigerator_97"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 10344.8664349,
+                    "duration_mean": 7850.194275782616,
+                    "finish_increment": 5,
+                    "frequency": 0.24577317837768525,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 14.617939988405093,
+                    "finish_increment": 5,
+                    "frequency": 0.07832822675620804,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 16937.8736704438,
+                    "finish_increment": 5,
+                    "frequency": 0.08120499459605197,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 2869.718648492426,
+                    "finish_increment": 5,
+                    "frequency": 0.08119772849022229,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 6300.654244705754,
+                    "finish_increment": 5,
+                    "frequency": 0.07864089372245002,
+                    "sensor_name": "Lightswitch_98"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 4.228840509305656,
+                    "finish_increment": 5,
+                    "frequency": 0.07839102680993991,
+                    "sensor_name": "Lightswitch_145"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_HOT",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 2.156696435078041,
+                    "finish_increment": 5,
+                    "frequency": 0.0809239391684079,
+                    "sensor_name": "Sinkfaucet-hot_100"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 55617.773978264675,
+                    "finish_increment": 5,
+                    "frequency": 0.07696050808304111,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1540.2144811865157,
+                    "finish_increment": 5,
+                    "frequency": 0.07802048328901685,
+                    "sensor_name": "Sinkfaucet-cold_91"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 6264.096725897886,
+                    "finish_increment": 5,
+                    "frequency": 0.07848365629257657,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 58000.07640652486,
+                    "finish_increment": 5,
+                    "frequency": 0.08380904668882214,
+                    "sensor_name": "Lightswitch_119"
+                }
+            ]
+        },
+        {
+            "activity_type": "GO_OUT_SHOPPING",
+            "attendance": "ATTENDED",
+            "count": 3.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 3598.06179306,
+                    "duration_mean": 27924.7127406152,
+                    "finish_increment": 5,
+                    "frequency": 1.0638693623079294,
+                    "sensor_name": "Lightswitch_98"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 4.5,
+                    "duration_mean": 15.635019568251717,
+                    "finish_increment": 5,
+                    "frequency": 0.6723145758161992,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 34446.61580492635,
+                    "finish_increment": 5,
+                    "frequency": 0.3445113195661879,
+                    "sensor_name": "Lightswitch_99"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 7523.5,
+                    "duration_mean": 39346.86792098432,
+                    "finish_increment": 5,
+                    "frequency": 0.6881423998258701,
+                    "sensor_name": "Lightswitch_95"
+                }
+            ]
+        },
+        {
+            "activity_type": "TALKING_ON_TELEPHONE",
+            "attendance": "ATTENDED",
+            "count": 3.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_TELEPHONE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 14054.9921459,
+                    "duration_mean": 11972.313790951555,
+                    "finish_increment": 5,
+                    "frequency": 1.0409383779997425,
+                    "sensor_name": "Telephone_69"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3.0931068222196902,
+                    "finish_increment": 5,
+                    "frequency": 0.3640204991272905,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 24856.42302776156,
+                    "finish_increment": 5,
+                    "frequency": 0.36167528237619895,
+                    "sensor_name": "Drawer_135"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 19746.64983053111,
+                    "finish_increment": 5,
+                    "frequency": 0.3633788791592239,
+                    "sensor_name": "Lightswitch_107"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 13.207913308413444,
+                    "finish_increment": 5,
+                    "frequency": 0.3652194731761317,
+                    "sensor_name": "Cabinet_64"
+                },
+                {
+                    "activity_type": "USE_TOASTER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 4.205213700844313,
+                    "finish_increment": 5,
+                    "frequency": 0.3454724326771216,
+                    "sensor_name": "Toaster_108"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 3.0,
+                    "duration_mean": 4.0205130957776145,
+                    "finish_increment": 5,
+                    "frequency": 0.6909827872071287,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 4103.295683286792,
+                    "finish_increment": 5,
+                    "frequency": 0.3362354466176843,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_STEREO",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 821.1739127828151,
+                    "finish_increment": 5,
+                    "frequency": 0.35571444219103626,
+                    "sensor_name": "Stereo_122"
+                },
+                {
+                    "activity_type": "USE_FREEZER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 5634.214558493526,
+                    "finish_increment": 5,
+                    "frequency": 0.34116856390965067,
+                    "sensor_name": "Freezer_70"
+                }
+            ]
+        },
+        {
+            "activity_type": "PUTTING_AWAY_GROCERIES",
+            "attendance": "ATTENDED",
+            "count": 1.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 8746.60392667,
+                    "duration_mean": 5522.919759930848,
+                    "finish_increment": 5,
+                    "frequency": 4.142187091566775,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 3.0457921750262673,
+                    "finish_increment": 5,
+                    "frequency": 1.0380337217054398,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 903.7669825216714,
+                    "finish_increment": 5,
+                    "frequency": 1.0207171974458678,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 9.44526072987071,
+                    "finish_increment": 5,
+                    "frequency": 1.0698025081872133,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 6.450082550036351,
+                    "finish_increment": 5,
+                    "frequency": 1.0624758391323457,
+                    "sensor_name": "Cabinet_142"
+                },
+                {
+                    "activity_type": "USE_FREEZER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 26.69839873943301,
+                    "finish_increment": 5,
+                    "frequency": 1.0864813688938284,
+                    "sensor_name": "Freezer_70"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 5.0,
+                    "duration_mean": 29.122938781875604,
+                    "finish_increment": 5,
+                    "frequency": 2.0373318409931716,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 10045.5,
+                    "duration_mean": 10937.331879743811,
+                    "finish_increment": 5,
+                    "frequency": 2.1666349505809506,
+                    "sensor_name": "Refrigerator_66"
+                }
+            ]
+        },
+        {
+            "activity_type": "WORKING_AT_COMPUTER",
+            "attendance": "ATTENDED",
+            "count": 5.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 45.8278026966,
+                    "duration_mean": 69.74267265019866,
+                    "finish_increment": 5,
+                    "frequency": 0.8381635624402378,
+                    "sensor_name": "Drawer_82"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 23.264849625956852,
+                    "finish_increment": 5,
+                    "frequency": 0.20195820504242376,
+                    "sensor_name": "Drawer_68"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 6646.22785245,
+                    "duration_mean": 16986.027195368817,
+                    "finish_increment": 5,
+                    "frequency": 0.6124496130360196,
+                    "sensor_name": "Lightswitch_107"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 40320.24763743181,
+                    "finish_increment": 5,
+                    "frequency": 0.21982746499962175,
+                    "sensor_name": "Door_133"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 7.0,
+                    "duration_mean": 37.26963575416877,
+                    "finish_increment": 5,
+                    "frequency": 0.43781652711650204,
+                    "sensor_name": "Drawer_135"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1.069581227738405,
+                    "finish_increment": 5,
+                    "frequency": 0.20087912998966792,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 63.6613338856,
+                    "duration_mean": 121.66699075931633,
+                    "finish_increment": 5,
+                    "frequency": 1.9331717336291072,
+                    "sensor_name": "Lightswitch_53"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 74.37919217567482,
+                    "finish_increment": 5,
+                    "frequency": 0.2129073146791273,
+                    "sensor_name": "Door_85"
+                },
+                {
+                    "activity_type": "USE_DRAWER",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 17.181961597332737,
+                    "finish_increment": 5,
+                    "frequency": 0.21084894628260584,
+                    "sensor_name": "Drawer_71"
+                },
+                {
+                    "activity_type": "USE_STEREO",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 99.9510991546,
+                    "duration_mean": 84.6802505524271,
+                    "finish_increment": 5,
+                    "frequency": 0.607867408813348,
+                    "sensor_name": "Stereo_122"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 105.88700327103982,
+                    "finish_increment": 5,
+                    "frequency": 0.20312211721956064,
+                    "sensor_name": "Door_137"
+                }
+            ]
+        },
+        {
+            "activity_type": "CLEANING",
+            "attendance": "ATTENDED",
+            "count": 3.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 3.5,
+                    "duration_mean": 7.052018327456752,
+                    "finish_increment": 5,
+                    "frequency": 0.669698524617735,
+                    "sensor_name": "Cabinet_64"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 7.00991361494,
+                    "duration_mean": 10.280080273481369,
+                    "finish_increment": 5,
+                    "frequency": 2.0910257668523395,
+                    "sensor_name": "Refrigerator_74"
+                },
+                {
+                    "activity_type": "USE_REFRIGERATOR",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 481.633562876,
+                    "duration_mean": 679.0063538090872,
+                    "finish_increment": 5,
+                    "frequency": 1.0704989891876853,
+                    "sensor_name": "Refrigerator_66"
+                },
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 11205.0,
+                    "duration_mean": 41326.9022879699,
+                    "finish_increment": 5,
+                    "frequency": 0.6967704225196086,
+                    "sensor_name": "Door_51"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 301.0,
+                    "duration_mean": 5898.935599962155,
+                    "finish_increment": 5,
+                    "frequency": 0.6923137581289399,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 2660.5,
+                    "duration_mean": 2913.769781888872,
+                    "finish_increment": 5,
+                    "frequency": 0.6995607138314242,
+                    "sensor_name": "Lightswitch_75"
+                },
+                {
+                    "activity_type": "USE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 15.59328465278999,
+                    "finish_increment": 5,
+                    "frequency": 0.3570109894232497,
+                    "sensor_name": "Cabinet_54"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 6289.614345762441,
+                    "finish_increment": 5,
+                    "frequency": 0.3491345214048211,
+                    "sensor_name": "Lightswitch_109"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 1.63299316186,
+                    "duration_mean": 8.48886935239566,
+                    "finish_increment": 5,
+                    "frequency": 1.034571135326656,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 37009.833827918425,
+                    "finish_increment": 5,
+                    "frequency": 0.3497163244662125,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 5593.729503517323,
+                    "finish_increment": 5,
+                    "frequency": 0.36205561907048217,
+                    "sensor_name": "Lightswitch_119"
+                },
+                {
+                    "activity_type": "USE_SWITCH",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1719.6250085036318,
+                    "finish_increment": 5,
+                    "frequency": 0.361565767990226,
+                    "sensor_name": "Lightswitch_106"
+                }
+            ]
+        },
+        {
+            "activity_type": "GROOMING",
+            "attendance": "ATTENDED",
+            "count": 2.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_MEDICINE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 6.596767222076994,
+                    "finish_increment": 5,
+                    "frequency": 0.5237141289404197,
+                    "sensor_name": "Medicinecabinet_139"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 15.5,
+                    "duration_mean": 55.772434620497506,
+                    "finish_increment": 5,
+                    "frequency": 1.029352906660176,
+                    "sensor_name": "Sinkfaucet-cold_94"
+                },
+                {
+                    "activity_type": "USE_MICROWAVE",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 885.5,
+                    "duration_mean": 930.0731993208482,
+                    "finish_increment": 5,
+                    "frequency": 1.064188994473977,
+                    "sensor_name": "Microwave_115"
+                },
+                {
+                    "activity_type": "USE_GARBAGE_DISPOSAL",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 10904.83686807841,
+                    "finish_increment": 5,
+                    "frequency": 0.5467319488163823,
+                    "sensor_name": "Garbagedisposal_84"
+                },
+                {
+                    "activity_type": "USE_SINK_FAUCET_COLD",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 1882.1026148558049,
+                    "finish_increment": 5,
+                    "frequency": 0.5224039256490437,
+                    "sensor_name": "Sinkfaucet-cold_96"
+                },
+                {
+                    "activity_type": "USE_MEDICINE_CABINET",
+                    "attendance": "ATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 19.0941050950011,
+                    "finish_increment": 5,
+                    "frequency": 0.5395632284290686,
+                    "sensor_name": "Medicinecabinet_127"
+                }
+            ]
+        },
+        {
+            "activity_type": "GO_OUT_ENTERTAINING",
+            "attendance": "ATTENDED",
+            "count": 1.0,
+            "finish_objective": 100,
+            "priority": 0,
+            "priority_increment": 0,
+            "subactivities": [
+                {
+                    "activity_type": "USE_DOOR",
+                    "attendance": "UNATTENDED",
+                    "duration_deviation": 0.0,
+                    "duration_mean": 12.089848755569186,
+                    "finish_increment": 5,
+                    "frequency": 1.0737503139465152,
+                    "sensor_name": "Door_85"
+                }
+            ]
+        },
+        {
+            "activity_type": "WAKE_UP",
+            "attendance": "ATTENDED",
+            "duration_mean": 100,
+            "finish_objective": 0,
+            "mandatory_end_time": "06:45",
+            "mandatory_start_time": "06:30",
+            "priority_base": 0,
+            "priority_increment": 20,
+            "subactivities": []
+        }
+    ],
+    "todo_list": [
+        {
+            "activity_type": "TOILETING",
+            "desired_end_time": "07:18",
+            "desired_start_time": "07:04",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "CLEANING",
+            "desired_end_time": "07:51",
+            "desired_start_time": "07:36",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "WASHING_DISHES",
+            "desired_end_time": "08:25",
+            "desired_start_time": "08:07",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "PREPARING_SNACK",
+            "desired_end_time": "08:52",
+            "desired_start_time": "08:46",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "PREPARING_SNACK",
+            "desired_end_time": "09:04",
+            "desired_start_time": "08:57",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "WASHING_DISHES",
+            "desired_end_time": "09:22",
+            "desired_start_time": "09:09",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "TOILETING",
+            "desired_end_time": "09:53",
+            "desired_start_time": "09:45",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "TOILETING",
+            "desired_end_time": "10:13",
+            "desired_start_time": "10:04",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "LISTENING_MUSIC",
+            "desired_end_time": "11:34",
+            "desired_start_time": "10:22",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "PREPARING_BREAKFAST",
+            "desired_end_time": "12:05",
+            "desired_start_time": "11:47",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "PREPARING_BREAKFAST",
+            "desired_end_time": "12:30",
+            "desired_start_time": "12:13",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "WASHING_DISHES",
+            "desired_end_time": "13:09",
+            "desired_start_time": "12:55",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "PREPARING_LUNCH",
+            "desired_end_time": "13:39",
+            "desired_start_time": "13:15",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "PREPARING_LUNCH",
+            "desired_end_time": "14:31",
+            "desired_start_time": "13:57",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "LISTENING_MUSIC",
+            "desired_end_time": "18:10",
+            "desired_start_time": "14:56",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "WATCHING_TV",
+            "desired_end_time": "18:48",
+            "desired_start_time": "18:39",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "WATCHING_TV",
+            "desired_end_time": "19:18",
+            "desired_start_time": "19:09",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "LISTENING_MUSIC",
+            "desired_end_time": "20:31",
+            "desired_start_time": "19:31",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "PREPARING_SNACK",
+            "desired_end_time": "21:21",
+            "desired_start_time": "20:53",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "LISTENING_MUSIC",
+            "desired_end_time": "22:23",
+            "desired_start_time": "21:23",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        },
+        {
+            "activity_type": "PREPARING_SNACK",
+            "desired_end_time": "23:10",
+            "desired_start_time": "22:48",
+            "preconditions": [
+                "WAKE_UP"
+            ]
+        }
+    ]
+}

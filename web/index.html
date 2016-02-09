@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html ng-app="massha">
+
+<head> 
+    <title>Massha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link rel="stylesheet" href="static/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/plugins/leaflet/leaflet.css">
+    <link rel='stylesheet' href="static/plugins/leaflet-fullscreen/leaflet-fullscreen.css">
+    <link rel="stylesheet" href="static/css/massha.css" />
+
+    <script type="text/javascript" src="static/plugins/angular/angular.min.js"></script>
+    <script type="text/javascript" src="static/plugins/angular/angular-route.min.js"></script>
+    <script type="text/javascript" src="static/plugins/leaflet/leaflet.js"></script>
+    <script type="text/javascript" src="static/plugins/leaflet-fullscreen/leaflet-fullscreen.min.js"></script>
+    <script type="text/javascript" src="static/plugins/leaflet-editable/leaflet-editable.js"></script>
+    <script type="text/javascript" src="static/plugins/leaflet-heatmap/leaflet-heat.js"></script>
+
+    <script type="text/javascript" src="static/js/init.js"></script>
+    <script type="text/javascript" src="static/js/services.js"></script>
+    <script type="text/javascript" src="static/js/controller.js"></script>
+
+</head>
+
+<body class="container-fluid" ng-controller="MasshaController" style="padding:50px 0 0 0">
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#/">Massha</a>
+        </div>
+
+        <ul class="nav navbar-nav pull-left">
+            <li class="pull-left"><a href="#/environment">Environment</a></li>
+            <li class="pull-left"><a href="#/agents">Agents</a></li>
+            <li class="pull-left"><a href="#/map">Map</a></li>
+        </ul>
+
+        </div>
+    </div>
+</nav>
+<!-- NAVBAR -->
+
+<!-- MAIN CONTENT -->
+<div style="position:relative;width:100%;height:100%;padding:0;">
+
+    <!-- STATIC MAP -->
+    <div class="container-fluid" ng-controller="MapController" style="position:absolute;width:100%;height:100%;padding:0;margin:0;z-index:0">
+        <div id="map-canvas" style="width:100%; height: 100%"></div>
+    </div>
+    <!-- STATIC MAP -->
+
+
+    <!-- VIEWS -->
+    <div ng-view="" class="container-fluid" style="position:absolute;width:100%;height:100%;z-index:1;margin:0;background-color:rgba(255,255,255,0.95)">
+    </div>
+    <!-- VIEWS -->
+
+</div>
+<!-- MAIN CONTENT -->
+
+
+</body>
+</html>

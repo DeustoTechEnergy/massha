@@ -1,0 +1,90 @@
+
+<div>
+
+    <h2>Create {{class_name}}</h2>
+
+</div>
+
+<hr class="row col-xs-12">
+
+    <!-- AMOUNT -->
+    <div class="col-xs-12">
+        <h4>Agent amount:</h4>
+        <div class="input-group">
+            <input class="form-control" type="range" min="1" max="5000" ng-model="agent_amount">
+            <div class="input-group-addon">{{agent_amount}}</div>
+        </div>
+        
+    </div>
+
+<hr class="row col-xs-12">
+
+<div class="row">
+
+    <!-- GEOMETRY -->
+    <div class="col-sm-4">
+        <h4>Geometry:</h4>
+        <div>edit:</div>
+        <!--<textarea type="text" class="form-control" rows="8" placeholder="Agent geometry" ng-model="$root.agents[class_name][id].geometry | json" disabled></textarea>-->
+        
+    </div>
+
+
+    <!-- PROPERTIES -->
+    <div class="col-sm-4">
+        <h4>Properties:</h4>
+        
+        <div class="col-xs-6">
+            <input class="form-control" type="text" placeholder="New property name" ng-model="new_property">
+        </div>
+        <button class="btn btn-default col-xs-6" ng-click="agent_properties[new_property] = {}; new_property = ''">Create new property</button>
+        
+        <hr class="row col-xs-12">
+        
+        <div ng-repeat="(key , value) in agent_properties">
+        
+            <div class="row form-group" ng-show="key && agent_properties[key]">
+            
+                <div class="col-xs-4">
+                    <h5>{{key}}</h5>
+                </div>
+                
+                <div class="col-xs-3">
+                    <select class="form-control" placeholder="{{key}} type" ng-model="agent_properties[key].type">
+                        <option ng-value="text">Text</option>
+                        <option ng-value="number">Number</option>
+                        <option ng-value="checkbox">Boolean</option>
+                        <option ng-value="datetime-local">Date</option>
+                        <option ng-value="color">Color</option>
+                    </select>
+                </div>
+
+                <div class="col-xs-4">
+                    <input class="form-control" type="{{agent_properties[key].type}}" placeholder="{{key}} value" ng-model="agent_properties[key].value">
+                </div>
+                
+                <div class="col-xs-1">
+                    <button class="btn btn-default btn-block" ng-click="agent_properties[key] = undefined">X</button>
+                </div>
+                
+            </div>
+        
+        </div>
+        
+
+        
+    </div>
+
+    <!-- STYLE -->
+    <div class="col-sm-4">
+        <h4>Style:</h4>
+        
+    </div>
+    
+</div>
+
+<hr class="row col-xs-12">
+
+<div class="row">
+    <button class="btn btn-lg btn-block btn-default" ng-click="createAgents()">Create {{class_name}} agents</button>
+</div>

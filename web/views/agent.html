@@ -1,0 +1,68 @@
+
+<div ng-if="$root.agents[class_name][id]">
+
+    <h2>{{$root.agents[class_name][id].properties.name.value}}</h2>
+
+    <div class="btn-group" role="group">
+        <button title="Locate" class="btn btn-default btn-sm glyphicon glyphicon-map-marker" ng-click="locateAgent(class_name , id , $root.agents[class_name][id].properties.name.value)"></button>
+        <button title="Update" class="btn btn-sm btn-default glyphicon glyphicon-cloud-upload" ng-click="updateAgent(class_name , id)"></button>
+        <button title="Reload" class="btn btn-sm btn-default glyphicon glyphicon-cloud-download" ng-click="getAgent(class_name , id)"></button>
+        <button title="Run" class="btn btn-sm btn-default glyphicon glyphicon-play" ng-click="runAgent(class_name , id)"></button>
+        <button title="Stop" class="btn btn-sm btn-default glyphicon glyphicon-stop" ng-click="stopAgent(class_name , id)"></button>
+        <button title="Delete" class="btn btn-sm btn-default glyphicon glyphicon-trash" ng-click="deleteAgent(class_name , id)"></button>
+    </div>
+
+</div>
+
+<hr class="row col-xs-12">
+
+<div ng-if="$root.agents[class_name][id]" class="row">
+
+    <!-- GEOMETRY -->
+    <div class="col-sm-4">
+        <h4>Geometry:</h4>
+        <div>edit:</div>
+        <!--<textarea type="text" class="form-control" rows="8" placeholder="Agent geometry" ng-model="$root.agents[class_name][id].geometry | json" disabled></textarea>-->
+        
+        <div id="agent-map-canvas" class="well" style="width:100%;height:400px"></div>
+        
+    </div>
+
+
+    <!-- PROPERTIES -->
+    <div class="col-sm-4">
+        <h4>Properties:</h4>
+        <div class="form-group" ng-if="$root.agents[class_name][id].properties[key].type != undefined" ng-repeat="(key , value) in $root.agents[class_name][id].properties">
+            <div>{{key}}:</div>
+
+            <!-- IF THE PROPERTY LINKS AN AGENT -->
+            <div class="col-xs-12 input-group" ng-if="$root.agents[class_name][id].properties[key].type == 'agent'">
+                <div class="input-group-addon" ng-if="$root.agents[class_name][id].properties[key].pre">{{$root.agents[class_name][id].properties[key].pre}}</div>
+                <a class="form-control" href="#/agent/{{$root.agents[class_name][id].properties[key].class}}/{{$root.agents[class_name][id].properties[key].id}}">{{$root.agents[class_name][id].properties[key].name}}</a>
+                <div class="input-group-addon" ng-if="$root.agents[class_name][id].properties[key].post">{{$root.agents[class_name][id].properties[key].post}}</div>
+                <div class="input-group-addon" ng-click="locateAgent($root.agents[class_name][id].properties[key].class , $root.agents[class_name][id].properties[key].id , 'HERE')">Locate</div>
+            </div>
+
+            <!-- ELSE -->
+            <div class="col-xs-12 input-group" ng-if="$root.agents[class_name][id].properties[key].type != 'agent'">
+                <div class="input-group-addon" ng-if="$root.agents[class_name][id].properties[key].pre">{{$root.agents[class_name][id].properties[key].pre}}</div>
+                <input class="form-control" type="{{$root.agents[class_name][id].properties[key].type}}" ng-model="$root.agents[class_name][id].properties[key].value">
+                <div class="input-group-addon" ng-if="$root.agents[class_name][id].properties[key].post">{{$root.agents[class_name][id].properties[key].post}}</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- STYLE -->
+    <div class="col-sm-4">
+        <h4>Style:</h4>
+        <div class="form-group" ng-repeat="(key , value) in $root.agents[class_name][id].properties.style">
+            <div>{{key}}:</div>
+            <div class="col-xs-12 input-group">
+                <div class="input-group-addon" ng-if="$root.agents[class_name][id].properties.style[key].pre">{{$root.agents[class_name][id].properties.style[key].pre}}</div>
+                <input class="form-control" type="{{$root.agents[class_name][id].properties.style[key].type}}" ng-model="$root.agents[class_name][id].properties.style[key].value">
+                <div class="input-group-addon" ng-if="$root.agents[class_name][id].properties.style[key].post">{{$root.agents[class_name][id].properties.style[key].post}}</div>
+            </div>
+        </div>
+    </div>
+
+</div>

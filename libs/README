@@ -1,0 +1,39 @@
+----------------NEEDED LIBRARIES AND INSTALLATION :
+
+
+----------------FUZZYLITE :
+
+https://github.com/fuzzylite/fuzzylite
+
+DOWNLOAD SOURCE FROM GITHUB
+
+cmake . && make && make install
+
+----------------LEMON :
+
+http://lemon.cs.elte.hu/
+
+DOWNLOAD
+
+cd lemon-x.y.z
+mkdir build
+cd build
+cmake .. && make && make install
+
+
+----------------QHTTPSERVER :
+
+https://github.com/nikhilm/qhttpserver
+
+Requires Qt 4 or Qt 5.
+
+qmake && make && su -c 'make install'
+
+To link to your projects put this in your project's qmake project file
+
+LIBS += -lqhttpserver
+
+By default, the installation prefix is /usr/local. To change that to /usr,
+for example, run:
+
+qmake -r PREFIX=/usr

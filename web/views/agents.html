@@ -1,0 +1,51 @@
+
+<div class="row">
+    <h2 class="col-xs-12">{{class_name}}</h2>
+    <div class="btn-group pull-right" role="group">
+        <a title="Create" class="btn btn-sm btn-default glyphicon glyphicon-plus" href="#/agents/{{class_name}}/create"></a>
+        <button title="Run all" class="btn btn-sm btn-default glyphicon glyphicon-play" ng-click="runAll(class_name)"></button>
+        <button title="Stop all" class="btn btn-sm btn-default glyphicon glyphicon-stop" ng-click="stopAgent(class_name, agent.properties.id.value)"></button>
+        <button title="Delete all" class="btn btn-sm btn-default glyphicon glyphicon-trash" ng-click="deleteAgent(class_name, agent.properties.id.value)"></button>
+    </div>
+</div>
+
+<hr class="row col-xs-12">
+
+<!-- LIST -->
+<div ng-if="agent" ng-repeat="agent in $root.agents[class_name]">
+
+    <div class="row">
+        
+        <!-- IF ICON -->
+        <div ng-if="agent.properties.style.icon_url" class="col-xs-2">
+            <img class="img-responsive" style="max-height:64px" src="{{agent.properties.style.icon_url.value}}">
+        </div>
+        
+        <!-- IF NOT ICON -->
+        <div ng-if="!agent.properties.style.icon_url" class="col-xs-2" style="height:32px; border:2px solid {{agent.properties.style.border_color.value}}; background-color:{{agent.properties.style.color.value}}">
+        </div>
+        
+        <!-- NAME -->
+        <div class="col-xs-6">
+            <a href="#/agent/{{class_name}}/{{agent.properties.id.value}}">{{agent.properties.name.value}}</a>
+        </div>
+
+        <!-- BUTTONS -->
+        <div class="col-xs-4">
+            <div class="btn-group pull-right" role="group">
+                <button title="Run" class="btn btn-xs btn-default glyphicon glyphicon-play" ng-click="runAgent(class_name, agent.properties.id.value)"></button>
+                <button title="Stop" class="btn btn-xs btn-default glyphicon glyphicon-stop" ng-click="stopAgent(class_name, agent.properties.id.value)"></button>
+                <button title="Delete" class="btn btn-xs btn-default glyphicon glyphicon-trash" ng-click="deleteAgent(class_name, agent.properties.id.value)"></button>
+            </div>
+        </div>
+    </div>
+
+    <hr class="row">
+
+</div>
+
+<!-- LIST -->
+
+<div class="row">
+    <button class="btn btn-lg btn-block btn-default" ng-click="getNextPaginated()">Download more</button>
+</div>
